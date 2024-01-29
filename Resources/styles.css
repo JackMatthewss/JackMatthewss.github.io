@@ -83,16 +83,17 @@ html {
     justify-content: center;
     align-items: center;
 }
-.port h2{
+.port {
     font-family: 'Single Day',sans-serif;
 }
 .project {
     border: 5px solid #4F6869;
     border-radius: 5%;
+    align-items: flex-start;
     text-align: center;
     font-size: 2rem;
     width: 100%;
-    min-height: 100%;
+    height: auto;
     background-color: transparent;
     box-shadow: 0 0 20px #82AEB1;
 }
@@ -206,9 +207,11 @@ html {
 .cardholder {
     flex-direction: row;
     flex-wrap: wrap;
-    display: inline-flex;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: visible ;
+    margin-right: 3rem;
 }
 
 .card:hover {
@@ -226,10 +229,12 @@ html {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
     .cardholder {
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .intro{
         grid-area: 1/1/2/2;
@@ -281,13 +286,19 @@ html {
     
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 350px) {
     .intro h1{
         font-size: 2rem;
         line-height: 1.5rem;
     }
+    .port {
+        font-size: 4rem;
+    }
     i {
         font-size:5rem;
+    }
+    .card{
+        margin-right: 10rem;
     }
 
     
