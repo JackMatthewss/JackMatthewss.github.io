@@ -61,6 +61,7 @@ html {
 }
 
 .intro .jack{
+    font-family: 'Single Day', sans-serif;
     color: #82AEB1;
     text-transform: uppercase;
 }
