@@ -63,7 +63,6 @@ body {
 .intro .jack{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 0.2rem #fff;
-    text-decoration: underline;
 }
 .location {
     font-family: 'Fira Sans', sans-serif;
