@@ -3,8 +3,12 @@
     font-family: 'Fira Sans', sans-serif;
     transition: all 0.3s ease;
 }
+
+body {
+    background-color:#93C6D6;
+}
 .header {
-    background-color: #fff;
+    background-color: #E1EFF4;
     position: fixed;
     margin-bottom: 2rem;
     left: 0;
@@ -14,7 +18,7 @@
     display: inline-flex;
     justify-content: end;
     align-items: center;
-    box-shadow: 0px -50px 100px black ;
+    box-shadow: 0px -50px 100px #4F6869 ;
     z-index: 2;
 }
 .container {
@@ -47,6 +51,7 @@
     width: 100%;
     margin: 0;
     flex:1;
+    color:#fff
 }
 
 .intro, img{
@@ -57,7 +62,7 @@
 
 .intro .jack{
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 0.2rem black;
+    -webkit-text-stroke: 0.2rem #fff;
     text-decoration: underline;
 }
 .location {
@@ -66,7 +71,7 @@
 }
 .location i {
     font-size: 1rem;
-    color:#E15554;
+    color:#fff;
 }
 .container h1 {
     width:100%;
@@ -75,7 +80,7 @@
     margin-bottom: 0;
 }
 .navigation{
-    background-color: #fff;
+    background-color: #E1EFF4;
     padding: 1rem 1rem;
 }
 
@@ -85,13 +90,14 @@
     text-transform: capitalize;
     text-align: center;
     color: #aaa;
+    background-color: transparent;
     align-items: center;
     transition: all 0.3s ease;
 }
 .navigation a{
     font-weight: 700;
     text-align: center;
-    background-color: #fff;
+    background-color: #E1EFF4;
     border: 2px #ccc solid;
     border-radius: 0.5rem;
     padding: 0.5rem;
@@ -103,6 +109,7 @@
     margin: 0rem;
     font-size: 5rem;
     transition: all 0.3s ease;
+    color:#4F6869
 }
 .card{
     border: 10px solid transparent;
@@ -119,7 +126,8 @@
     height: 50%;
     max-width: 100%;
     transition: all 0.3s all;
-    box-shadow: 0 0 50px #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 50px #4F6869;
     z-index: 0;
 }
 
@@ -136,7 +144,7 @@
 }
 
 .card:hover {
-    box-shadow: 0 0 50px black;
+    box-shadow: 0 0 50px #82AEB1;
     z-index: 1;
 }
 .navigation a:hover{
